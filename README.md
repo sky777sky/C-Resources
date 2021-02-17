@@ -6,13 +6,15 @@ To help me prepare for the CS 6200 class at Georgia Tech. Responses from Chat.
 #Programming Guides
 
 ##Beej's Guides
-Beef's Guide: It’s an excellent starting point for understanding both of the warmups. In fact, the introduction sounds like he’s speaking directly to you :)
+Beej's Guide: It’s an excellent starting point for understanding both of the warmups. In fact, the introduction sounds like he’s speaking directly to you :)
 “Hey! Socket programming got you down? Is this stuff just a little too difficult to figure out from the man pages? You want to do cool Internet programming, but you don’t have time to wade through a gob of structs trying to figure out if you have to call bind() before you connect(), etc., etc.” (page 4).
 https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf -Kyle N.
 
 ------
 
 +1 on the Beej guide. I was also having a lot of trouble in the beginning, and I feel like this guide was almost like a compass heading. The project was still difficult, and involved a lot of debugging, but after referencing this guide I went from feeling lost, to feeling like I have a general sense of what to do.Also if you can carve out a couple continuous hours, I also think its helpful to actually read through the Beej guide like a book, and later come back and reference the code during your implementation. I initially tried to just "Ctrl F" whatever I needed on the fly, but after reading through the guide continuously for a couple hours, I had a much better general feel for what was going on. -Chris J.
+
+------
 
 ##General Advice
 As a CS self-learner myself, I would recommend taking **programming, data structure and algorithm class**(not necessarily in OMSCS) to ramp up basic CS knowledge. Best of luck to your endeavors -Yueqiu S
@@ -29,7 +31,7 @@ I really like the iOS app **"Algorithms: Explained and Animated"** by Moriteru I
 
 If you don't know anything about **data structures and algorithms, this Coursera specialization** might help.
 https://www.coursera.org/specializations/data-structures-algorithms
-I've done the first course, Algorithmic Toolbox, and thought it was decent. Plenty of challenging little programming exercises involved, too, and they accept a variety of different languages, including at least Java, C++, and Python. (Can't remember if they also do C.) If you want a quicker overview, the book **Grokking Algorithms by Bhargava** is super readable and has simple Python implementations. 
+I've done the first course, Algorithmic Toolbox, and thought it was decent. Plenty of challenging little programming exercises involved, too, and they accept a variety of different languages, including at least Java, C++, and Python. (Can't remember if they also do C.) If you want a quicker overview, the book **Grokking Algorithms by Bhargava** https://www.oreilly.com/library/view/grokking-algorithms/9781617292231/ is super readable and has simple Python implementations. 
 
 **Teach Yourself CS** https://teachyourselfcs.com/ could be useful as a rough long-term blueprint. A number of the materials they recommend come up over and over and over. 
 
@@ -41,7 +43,7 @@ In order to get more familiar with network programming I'd suggest getting yours
 
 1. Get yourself set up with a good development environment
 
-For this project the first thing I did was set up the vagrant VM with a GUI. I chose Ubuntu Mate - it's fairly lightweight and intuitive. In the terminal do the following:
+For this project the first thing I did was set up the vagrant VM with a GUI. I chose **Ubuntu Mate** - it's fairly lightweight and intuitive. In the terminal do the following:
 
 $ sudo apt install ubuntu-mate-core
 $ sudo service display-manager start
@@ -58,7 +60,7 @@ There's some info on how to get CLion set up with Makefiles here: https://blog.j
 
 2. Debug step through some network programming samples.
 
-Pick some sample network code and build it using CLion (or other IDE of your choice). Being able to single-step through code and inspect the variables at runtime is incredibly valuable for understanding how things work. There are plenty of examples of networking code linked in the project readme and in Beej so pick whichever you like.
+Pick some sample network code and build it using **CLion (or other IDE of your choice)**. Being able to single-step through code and inspect the variables at runtime is incredibly valuable for understanding how things work. There are plenty of examples of networking code linked in the project readme and in Beej so pick whichever you like.
 
 One thing that makes networking code a bit more complicated to debug for this project is that you often need a client and a server both running at the same time, so it can be tricky to get started. If you're stuck on this, you could run a simple listener to simulate a basic server. You could do this with netcat (nc), for example.
 
@@ -75,7 +77,7 @@ Good luck, and I hope this helps someone!
 
 I don't have a formal CS background, but I read the prerequisites for this class and prepared as much as I could ahead of time. I found as many examples of C programs on the internet that I could and typed them myself, compiling and running to understand how things worked. In particular, I knew working with strings, structs, and pointers would be areas I needed to try to work on ahead of time. Some useful tips were on omscentral.com. 
 
-I also took a class that edged me toward C last semester, Software Analysis [and Testing], and I would recommend before taking that class before this class. SAT used C++ extensively, so it was a more gentle introduction to the use of pointers and memory management than C, in my opinion. Successfully working with C++ in that class gave me more confidence moving into this class. 
+I also took a class that edged me toward C last semester, **Software Analysis [and Testing]** https://omscs.gatech.edu/cs-6340-software-analysis-course-videos, and I would recommend before taking that class before this class. SAT used C++ extensively, so it was a more gentle introduction to the use of pointers and memory management than C, in my opinion. Successfully working with C++ in that class gave me more confidence moving into this class. 
 
 I definitely would not jump into this class without having prepped myself (unless I had a decent amount of experience programming with C). Experience with Python or Java just doesn't cut it, again, in my opinion. You need to learn the differences in C and how to work with them. 
 
@@ -83,7 +85,7 @@ Good luck and I hope you can make your way!
 
 Also, by the way, I was stuck on part 1 for almost 2 weeks after starting right away. I thought for a while that I'd have to drop this class. My problem wasn't C, it was understanding what I was supposed to do. Once I got an understanding of the big picture of this project, I did the other parts in 4 days. 
 
-Another very good preparatory site I almost forgot to mention is Operating Systems: 3 Easy Pieces. Not only are there some pretty well-written readings on OS topics, but there are also problems, projects, and lectures available. I found that invaluable. 
+Another very good preparatory site I almost forgot to mention is **Operating Systems: 3 Easy Pieces** https://pages.cs.wisc.edu/~remzi/OSTEP/. Not only are there some pretty well-written readings on OS topics, but there are also problems, projects, and lectures available. I found that invaluable. 
 
 Beej's guide, in my opinion, is okay, but I found more valuable information from piecing things together using Google as I went along. Your results may, of course, differ. 
 -Tom F
