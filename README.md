@@ -1,33 +1,41 @@
 # C-Resources
 
-##Purpose
+#Purpose
 To help me prepare for the CS 6200 class at Georgia Tech. Responses from Chat.
 
-##Programming Guides
+#Programming Guides
 
-####Beej's Guides
+##Beej's Guides
 Beef's Guide: It’s an excellent starting point for understanding both of the warmups. In fact, the introduction sounds like he’s speaking directly to you :)
 “Hey! Socket programming got you down? Is this stuff just a little too difficult to figure out from the man pages? You want to do cool Internet programming, but you don’t have time to wade through a gob of structs trying to figure out if you have to call bind() before you connect(), etc., etc.” (page 4).
 https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf -Kyle N.
 
+------
+
 +1 on the Beej guide. I was also having a lot of trouble in the beginning, and I feel like this guide was almost like a compass heading. The project was still difficult, and involved a lot of debugging, but after referencing this guide I went from feeling lost, to feeling like I have a general sense of what to do.Also if you can carve out a couple continuous hours, I also think its helpful to actually read through the Beej guide like a book, and later come back and reference the code during your implementation. I initially tried to just "Ctrl F" whatever I needed on the fly, but after reading through the guide continuously for a couple hours, I had a much better general feel for what was going on. -Chris J.
 
 ##General Advice
-As a CS self-learner myself, I would recommend taking programming, data structure and algorithm class(not necessarily in OMSCS) to ramp up basic CS knowledge. Best of luck to your endeavors -Yueqiu S
+As a CS self-learner myself, I would recommend taking **programming, data structure and algorithm class**(not necessarily in OMSCS) to ramp up basic CS knowledge. Best of luck to your endeavors -Yueqiu S
 
-For your immediate problem: I'd like to second the suggestion of Beej's network guide and the other resources in the project readme. Make sure you read them if you haven't. He also has a C programming guide, which should help, though I haven't read it. When you go through the network guide, make sure you actually understand what all the code is doing. Read it carefully and ask questions if you get stuck. 
+------
 
-Some specific knowledge that will be crucial for surviving this project: how memory management works in C (particularly use of malloc() and free()), pointers/references vs. values, strings vs. arrays (Google "null terminator" if you're not clear). Looks like most of these are covered in Beej's C guide. 
+For your immediate problem: I'd like to second the suggestion of **Beej's network guide and the other resources in the project readme**. Make sure you read them if you haven't. He also has a **C programming guide**, which should help, though I haven't read it. When you go through the network guide, make sure you actually understand what all the code is doing. Read it carefully and ask questions if you get stuck. 
 
-For more general CS knowledge: CS50 (famous, easy to Google) from Harvard has great lectures which cover a lot of the basics, and the first half of the programming exercises are all C-oriented (or were, a couple years ago when I did it). You can do the certificate version pretty cheaply; it just won't have college credit. This is probably a couple dozen hours of work, so it may not be viable for surviving the course. Watching the lectures probably will be, though. If you don't understand basic data structures like linked lists and arrays, this is probably a good place to look for more information. 
+Some specific knowledge that will be crucial for surviving this project: **how memory management works in C (particularly use of malloc() and free()), pointers/references vs. values, strings vs. arrays (Google "null terminator" if you're not clear)**. Looks like most of these are covered in Beej's C guide. 
 
-I really like the iOS app "Algorithms: Explained and Animated" by Moriteru Ishida. Really clear, simple animations showing the basic steps of most standard algorithms. Extremely useful for building an intuition about what they're doing. 
+For more general CS knowledge: **CS50 (famous, easy to Google) from Harvard** has great lectures which cover a lot of the basics, and the first half of the programming exercises are all C-oriented (or were, a couple years ago when I did it). You can do the certificate version pretty cheaply; it just won't have college credit. This is probably a couple dozen hours of work, so it may not be viable for surviving the course. Watching the lectures probably will be, though. If you don't understand basic data structures like linked lists and arrays, this is probably a good place to look for more information. 
 
-If you don't know anything about data structures and algorithms, this Coursera specialization might help. I've done the first course, Algorithmic Toolbox, and thought it was decent. Plenty of challenging little programming exercises involved, too, and they accept a variety of different languages, including at least Java, C++, and Python. (Can't remember if they also do C.) If you want a quicker overview, the book Grokking Algorithms by Bhargava is super readable and has simple Python implementations. 
+I really like the iOS app **"Algorithms: Explained and Animated"** by Moriteru Ishida. Really clear, simple animations showing the basic steps of most standard algorithms. Extremely useful for building an intuition about what they're doing. 
 
-Teach Yourself CS could be useful as a rough long-term blueprint. A number of the materials they recommend come up over and over and over. 
+If you don't know anything about **data structures and algorithms, this Coursera specialization** might help.
+https://www.coursera.org/specializations/data-structures-algorithms
+I've done the first course, Algorithmic Toolbox, and thought it was decent. Plenty of challenging little programming exercises involved, too, and they accept a variety of different languages, including at least Java, C++, and Python. (Can't remember if they also do C.) If you want a quicker overview, the book **Grokking Algorithms by Bhargava** is super readable and has simple Python implementations. 
+
+**Teach Yourself CS** https://teachyourselfcs.com/ could be useful as a rough long-term blueprint. A number of the materials they recommend come up over and over and over. 
 
 Anyway, I don't know your situation but I've worked through several of these resources, took 8 community college CS classes before starting here, and I found project 1 doable but very challenging. So don't feel bad but recognize it may take awhile to get your feet under you. -Joseph M
+
+------
 
 In order to get more familiar with network programming I'd suggest getting yourself set up with a good development environment and going over Chapter 5 (System Calls or Bust) of the Beej resource previously linked by Kyle above https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf.
 
@@ -63,6 +71,8 @@ In fairness, if you're not familiar with CLion it might be a bit late to do all 
 Good luck, and I hope this helps someone!
 -Robert P
 
+------
+
 I don't have a formal CS background, but I read the prerequisites for this class and prepared as much as I could ahead of time. I found as many examples of C programs on the internet that I could and typed them myself, compiling and running to understand how things worked. In particular, I knew working with strings, structs, and pointers would be areas I needed to try to work on ahead of time. Some useful tips were on omscentral.com. 
 
 I also took a class that edged me toward C last semester, Software Analysis [and Testing], and I would recommend before taking that class before this class. SAT used C++ extensively, so it was a more gentle introduction to the use of pointers and memory management than C, in my opinion. Successfully working with C++ in that class gave me more confidence moving into this class. 
@@ -77,6 +87,8 @@ Another very good preparatory site I almost forgot to mention is Operating Syste
 
 Beej's guide, in my opinion, is okay, but I found more valuable information from piecing things together using Google as I went along. Your results may, of course, differ. 
 -Tom F
+
+------
 
 ##Communities
 Slack and Discord servers! There’s always a few of us in there just chatting or helping each other get unstuck. If you need any help with basic programming knowledge gaps, that’s the place to go.
