@@ -92,5 +92,22 @@ Beej's guide, in my opinion, is okay, but I found more valuable information from
 
 ------
 
+I come from a mechanical engineering background and graduated in 2018. Definitely don't have the pre-requisite knowledge needed for this course. My only remedy for this was just sheer grind, probably spent over 100+ hours on this project.
+
+Warm up 1 took me 1 week
+Warm up 2 took me 3 days
+Part 1 Client took me 1 week
+Part 1 Server took me 3 days
+Part 2 Client took me 2 days
+Part 2 Server took me 2 days
+I've never coded in C before. I watched Harvard lectures 2-6 https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW to get up to speed in this language. My best advice is to dig through piazza posts, create your own post, and message in the slack when you get stuck. I've been shamelessly asking questions since the start of the class and I've been learning a lot.
+
+Literally for socket connections, just look at 6.1 (server) and 6.2 (client) in Beej's Guide. That's literally the code to successfully create a network socket connection.
+
+Hope this gives you perspective on project timeline as another non-native CS student.
+-Paul L
+
+-----
+
 ##Communities
 Slack and Discord servers! There’s always a few of us in there just chatting or helping each other get unstuck. If you need any help with basic programming knowledge gaps, that’s the place to go.
