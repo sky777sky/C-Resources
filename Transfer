@@ -1,0 +1,5 @@
+The umask value is set to a value like 0133, thereby preventing the execute bit from being set. Solution: set the permissions explicitly:
+
+chmod 755 a.out
+
+https://askubuntu.com/questions/44675/cant-execute-out-files-getting-permission-denied
