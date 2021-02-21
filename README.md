@@ -108,6 +108,11 @@ Hope this gives you perspective on project timeline as another non-native CS stu
 -Paul L
 
 -----
+Basic C
+https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
+
+-----
+
 
 ##Communities
 Slack and Discord servers! There’s always a few of us in there just chatting or helping each other get unstuck. If you need any help with basic programming knowledge gaps, that’s the place to go.
